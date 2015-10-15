@@ -17,3 +17,11 @@ model.predict <- function(data) {
   output <- scoreData(output)
   output
 }
+
+yhat.cofnig <- c(
+  username="",
+  apikey="",
+  env=""
+)
+
+yhat.deploy("myModel")
